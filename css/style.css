@@ -136,11 +136,18 @@ h1, h2, h3, h4 {
   text-decoration: none;
   display: inline-flex;
   align-items: center;
+  gap: 0;
 }
 
-.site-logo img {
-  height: 28px;
+.site-logo .logo-icon {
+  height: 60px;
   width: auto;
+}
+
+.site-logo .logo-wordmark {
+  height: 40px;
+  width: auto;
+  margin-left: -5px;
 }
 
 .site-nav {
